@@ -7,5 +7,4 @@ iptables -t nat –F
 #дропаем все по умолчанию
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
-iptables -P OUTPUT ACCEPT
-
+iptables -P OUTPUT DROP
