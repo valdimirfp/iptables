@@ -8,3 +8,5 @@ iptables -t nat –F
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
 iptables -P OUTPUT DROP
+
+
